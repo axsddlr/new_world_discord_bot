@@ -1,10 +1,13 @@
 # new world discord bot
 
-Automated discord bot for displaying patch notes from New World game.
+Automated discord bot for displaying patch notes and checking server status from New World game.
+
+
+![alt text](https://upload.wikimedia.org/wikipedia/en/b/bb/New_World_Cover_art.jpg)
 
 ## Requirements
 
-- Python 3.6 and up - https://www.python.org/downloads/
+- Python 3.8 and up - https://www.python.org/downloads/
 - git - https://git-scm.com/download/
 
 ### How to install modules
@@ -22,8 +25,8 @@ python3 -m pip install -r requirements.txt
 rename `.env.example` to `.env` then store your token and some other private info like this:
 
 ```
-DISCORD_TOKEN =
-discord_updates =
+DISCORD_TOKEN=
+discord_channel_webhook=
 ```
 
 ### PM2
